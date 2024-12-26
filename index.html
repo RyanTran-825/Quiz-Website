@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <a href="#" class="logo">DinoTest</a>
+
+        <nav class="navbar">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </nav>
+      </header>
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-box">
+            <h1>Your Test</h1>
+            <div class="quiz-header">
+              <span>Test Website Tutorials</span>
+              <span class="header-score">Score: 0/10</span>
+            </div>
+            <h2 class="question-text">Máy tính điện tử là gì?</h2>
+            <div class="option-list">
+              <!-- <div class="option">
+                <span>A. Thiết bị lưu trữ thông tin</span>
+              </div>
+              <div class="option">
+                <span> B. Thiết bị số hóa và biến đổi thông tin</span>
+              </div>
+              <div class="option">
+                <span> C. Thiết bị lưu trữ và xử lý thông tin</span>
+              </div>
+              <div class="option">
+                <span>D. Thiết bị tạo và biến đổi thông tin</span>
+              </div> -->
+            </div>
+            <div class="quiz-footer">
+              <span class="question-total">1 of 10 Question</span>
+              <button class="next-btn">Next</button>
+            </div>
+          </div>
+          <div class="result-box">
+            <h2>Kết quả bài kiểm tra!</h2>
+            <div class="percentage-container">
+              <div class="circular-progress">
+                <span class="progress-value"> 0% </span>
+              </div>
+
+              <span class="score-text">Điểm của cưng được 0 trên 10</span>
+            </div>
+
+            <div class="buttons">
+              <button class="tryAgain-btn">Try Again</button>
+              <button class="gohome-btn">Go To Home</button>
+            </div>
+          </div>
+        </section>
+        <section class="home">
+          <div class="home-content">
+            <h1>Test Website</h1>
+            <p>Hãy thử sức với bài trắc nghiệm nho nhỏ nào!</p>
+            <button class="start-btn">Start</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="popup-info">
+      <h2>Hướng dẫn</h2>
+      <span class="info"
+        >Đọc kĩ câu hỏi và chọn đáp án bên dưới nha các tình yêu ~
+      </span>
+
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Exit</button>
+        <a href="#" class="info-btn conti-btn">Continue</a>
+      </div>
+    </div>
+
+    <script src="question.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
